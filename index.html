@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript: Percentage Calculate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800;900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <div class="wrapper">    
+      <div class="container">
+        <h1 class="display-3 text-center text-danger">
+          Percentage Calculate
+        </h1>
+        <p class="lead text-center mb-4">X is what percentage(%) of Y 🙂?</p>
+        
+        <div class="text-center jumbotron form-inline d-flex justify-content-center flex-column mt-5">
+
+          <div class="error">
+
+          </div>
+          <form class="formPercentage">
+            <div class="inputFields">
+              <input type="text" id="firstInput" class="form-control form-control-lg" placeholder="'X' Value" />
+              <strong class="px-4">is what percentage(%) of</strong>
+              <input type="text" id="secondInput" class="form-control form-control-lg" placeholder="'Y' Value" />
+            </div>
+            <input type="submit" class="btn btn-danger mt-4 mb-2" value="Calculate the Percentage">            
+          </form>
+          <div class="answer"> </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
